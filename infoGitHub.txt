@@ -1,0 +1,5 @@
+GitHub:
+- Provides hosting for software development.
+- Alternatives for GutHub like GitLab and BitBucket.
+- Simplify the using of Git.
+- Has a desktop application.
