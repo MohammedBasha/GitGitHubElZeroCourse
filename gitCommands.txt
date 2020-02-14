@@ -35,3 +35,26 @@ $ git push -u origin master
 - git pull: Incorporates changes from a remote repository into the current branch. In its default mode, git pull is shorthand for git fetch followed by git merge FETCH_HEAD.
 $ git pull
 $ git pull origin
+
+- git help: opens the manual page.
+$ git help config
+
+- git config: gets and sets repository or global options.
+- git config -l:  -l or --list lists all variables set in config file, along with their values.
+$ git config -l
+
+- To augment the output of all queried config options with the origin type (file, standard input, blob, command line) and the actual origin (config file path, ref, or blob id if applicable).
+$ git config -l --show-origin
+
+- To get a value
+$ git config --global user.name
+
+- To set a value
+$ git config --global user.name "The_Value"
+
+- To delete a value
+$ git config --global --unset user.name
+$ git config --global user.name ""
+
+- To open the configuration in the editor:
+$ git config --global --edit
