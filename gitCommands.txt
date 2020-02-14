@@ -1,0 +1,19 @@
+- git clone: create a copy of the target repository.
+$ git clone the_remote_repo_.git
+
+- git status: shows the status of your working directory, the untracked and the staged files.
+$ git status
+
+- git add: adds the untracked files to the staged area.
+$ git add file.ext another_file.ext
+$ git add .
+$ git add *
+
+- git reset: unstage the staged files to be untracked.
+$ git reset Head file.ext
+
+- git commit: adding the staged files to the local repo.
+$ git commit -m "description for the committed files"
+
+- git restore: unstage the staged files to be untracked.
+$ git restore --staged file.ext
