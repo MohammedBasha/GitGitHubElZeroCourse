@@ -1,0 +1,17 @@
+- Repository or “repo” for short: is a storage location for software packages. Often a table of contents is stored, as well as metadata.
+
+- Branch: used when more than one person is working in the project and making changes and it is a unique set of code changes with a unique name. Each repository can have one or more branches.
+
+- Local repo: is on your computer and has all the files and their commit history, enabling full diffs, history review, and committing when offline. This is one of the key features of a “distributed” version control system (DVCS), locally having the full repository history
+
+- Remote repo: is stored on a code hosting service like GitHub or on an internal server.
+
+- Commit: is a git commit command that captures a snapshot of the project's currently staged changes.
+
+- Clone: is a git command used to target an existing repository and create a clone, or copy of the target repository.
+
+- Push: is a git command used to upload local repository content to a remote repository.
+
+- Pull: is a Git command used to update the local version of a repository from a remote.
+
+- Pull Request: let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
