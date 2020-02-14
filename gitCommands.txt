@@ -17,3 +17,21 @@ $ git commit -m "description for the committed files"
 
 - git restore: unstage the staged files to be untracked.
 $ git restore --staged file.ext
+
+- git branch: lists the branches in the repo.
+$ git branch
+
+- git remote: manages set of tracked repositories.
+- git remote -v: shows remote url after name
+$ git remote -v
+
+- git push: update remote refs along with associated objects.
+- git push origin (remote repo) master (local repo): Find a ref that matches master in the source repository (most likely, it would find refs/heads/master), and update the same ref (e.g. refs/heads/master) in origin repository with it. If master did not exist remotely, it would be created.
+$ git push origin master
+
+- git push -u origin master: -u or --set-upstream for every branch that is up to date or successfully pushed, add upstream (tracking) reference.
+$ git push -u origin master
+
+- git pull: Incorporates changes from a remote repository into the current branch. In its default mode, git pull is shorthand for git fetch followed by git merge FETCH_HEAD.
+$ git pull
+$ git pull origin
