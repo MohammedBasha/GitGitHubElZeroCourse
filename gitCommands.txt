@@ -58,3 +58,12 @@ $ git config --global user.name ""
 
 - To open the configuration in the editor:
 $ git config --global --edit
+
+- Public key:
+$ ssh-keygen -t rsa -b 4096 -c "mail@gmail.com"
+
+- To show the content of the public key file saved:
+$ cat path_to_file
+
+- To authenticate your login:
+$ ssh -T git@github.com
