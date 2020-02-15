@@ -106,8 +106,30 @@ $ git branch -D branch_name
 - stash: hide the changes in a dirty working directory away.
 $ git stash
 
+- To stash with a custom message.
+$ git stash save "custom message"
+
 - To list the stashed changes:
 $ git stash list
 
-- To show the changes aftr stashing:
+- To pop the last change aftr stashing and delete it from the list:
 $ git stash pop
+
+- To pop the last change aftr stashing without deleting it from the list
+$ git stash apply
+
+- To remove a specific saved stash depending on its id number.
+$ git stash pop stash@{2}
+
+- To remove a specific stash or the last one for ever from the saved stash list.
+$ git stash drop stash{1}
+$ git stash drop
+
+- To show the content of the last stashed
+$ git stash show
+
+- To delete all the saved stashes.
+$ git stash clear
+
+- To create a new branch with the latest stash, and then deletes the latest stash ( like stash pop).$ git stash branch branch_name
+$ git stash branch branch_name stash@{1}
