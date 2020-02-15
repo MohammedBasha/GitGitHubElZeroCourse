@@ -67,3 +67,6 @@ $ cat path_to_file
 
 - To authenticate your login:
 $ ssh -T git@github.com
+
+- git init: initialize a repo.
+$ git init
