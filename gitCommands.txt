@@ -102,3 +102,12 @@ $ git branch -d branch_name
 
 - To delete a branch even if it's unmerged.
 $ git branch -D branch_name
+
+- stash: hide the changes in a dirty working directory away.
+$ git stash
+
+- To list the stashed changes:
+$ git stash list
+
+- To show the changes aftr stashing:
+$ git stash pop
