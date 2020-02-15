@@ -70,3 +70,11 @@ $ ssh -T git@github.com
 
 - git init: initialize a repo.
 $ git init
+
+- Aliases: To create an alias for a command.
+$ git config --global alias.st status
+$ git config --global alias.st
+$ git st
+
+$ git config --global alias.cm "commit -m"
+$ git cm
