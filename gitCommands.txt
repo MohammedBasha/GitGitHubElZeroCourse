@@ -78,3 +78,27 @@ $ git st
 
 $ git config --global alias.cm "commit -m"
 $ git cm
+
+- branch: to show the branches.
+$ git branch
+
+- To create a branch.
+$ git branch branch_name
+
+- To switch branches or restore working tree files
+$ git checkout branch_name
+
+- To create a new branch and switch to it.
+$ git checkout -b branch-name
+
+- To rename a branch.
+$ git branch -m new_branch_name
+
+- To merge a branch after switching to the master branch.
+$ git merge branch_name
+
+- To delete a branch - won't delete if unmerged.
+$ git branch -d branch_name
+
+- To delete a branch even if it's unmerged.
+$ git branch -D branch_name
